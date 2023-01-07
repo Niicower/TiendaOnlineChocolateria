@@ -1,0 +1,101 @@
+a{
+    text-decoration: none;
+}
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    padding: 25px;
+    margin: 20px auto;
+    margin-top: 6%;
+    background-color: rgba(214, 188, 146, 0.473);
+    border-radius: 20px;
+    
+}
+
+::placeholder{
+    color: black;
+    font-size: 17px;
+}
+
+
+.contenido{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contenido .info, .formulario{
+    width: 50%;
+}
+
+
+.info{
+    padding-left: 10px;
+}
+
+.info .col{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 16px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info .col .icono{
+    color: #020202;
+    margin-right: 10px;
+    
+}
+
+.info .col p{
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+/*Estilos formulario*/
+
+ input[type='text'],input[type="email"],input[type="date"],textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 1px solid #ddd6cd;;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    background: #ffffffe3;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+button{
+    padding: 12px 30px;
+    border: transparent;
+    background: #614d175d;
+    color: rgb(12, 11, 11);
+    cursor: pointer;
+    float: left;
+}
+
+input[type="submit"]{
+    padding: 12px 30px;
+    border: transparent;
+    background: #614d175d;
+    color: rgb(12, 11, 11);
+    cursor: pointer;
+    float: left;
+}
+button:hover{
+    background-color: red;
+}
+
+input[type="submit"]:hover{
+    background-color: red;
+}
+.limpiar{
+    margin-left: 30px;
+}
